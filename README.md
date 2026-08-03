@@ -11,3 +11,20 @@ Personal collection of skills for Claude Code, synced across machines.
 - [shadcn-ui-component-manager [Add, fix, and compose shadcn or ui components]](<shadcn-ui-component-manager [Add, fix, and compose shadcn or ui components]>) — Manages shadcn/ui components and projects — adding, searching, fixing, styling, and composing UI.
 - [systematic-bug-diagnosis-loop [Structured diagnosis loop for hard bugs and perf regressions]](<systematic-bug-diagnosis-loop [Structured diagnosis loop for hard bugs and perf regressions]>) — A discipline for diagnosing hard bugs and performance regressions with a tight feedback loop.
 - [vibe-coding-lexicon [Appends a terminology lexicon to coding and MCP sessions]](<vibe-coding-lexicon [Appends a terminology lexicon to coding and MCP sessions]>) — Appends a short "Terminology Lexicon" to coding/MCP sessions so technical literacy builds up over time without hand-writing code.
+
+## builder-os/ (backup only)
+
+Third-party bundle from [BuildGreatProducts/builder-os](https://github.com/BuildGreatProducts/builder-os),
+installed via `npx skills add BuildGreatProducts/builder-os`. Kept nested in one folder as a backup —
+Claude Code only auto-discovers skills one level deep, so move a folder up to this level to activate it.
+
+- `builder-os/idea-generator` — guided discovery of a product idea from your business or expertise → `docs/product-idea.md`
+- `builder-os/idea-validator` — validates a product idea before building
+- `builder-os/product-planner` — turns the idea into `docs/prd.md` + `docs/product-roadmap.md`
+- `builder-os/design-system` — turns image/mockup references into `docs/design.md` + `docs/design.html`
+- `builder-os/design-better` — UX/UI craft heuristics applied to frontend code
+- `builder-os/build-mvp` — builds the whole MVP from the BuilderOS spec docs
+- `builder-os/build-loop-claude-code` — build → review → test → fix loop for Claude Code
+- `builder-os/build-loop-codex` — same loop for Codex CLI
+- `builder-os/build-loop-cursor` — same loop for Cursor
+- `builder-os/launch-checklist` — pre-launch checklist
