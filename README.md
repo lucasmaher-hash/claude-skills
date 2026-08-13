@@ -13,6 +13,7 @@ Personal collection of skills for Claude Code, synced across machines.
 - [shadcn-ui-component-manager [Add, fix, and compose shadcn or ui components]](<shadcn-ui-component-manager [Add, fix, and compose shadcn or ui components]>) — Manages shadcn/ui components and projects — adding, searching, fixing, styling, and composing UI.
 - [systematic-bug-diagnosis-loop [Structured diagnosis loop for hard bugs and perf regressions]](<systematic-bug-diagnosis-loop [Structured diagnosis loop for hard bugs and perf regressions]>) — A discipline for diagnosing hard bugs and performance regressions with a tight feedback loop.
 - [vibe-coding-lexicon [Appends a terminology lexicon to coding and MCP sessions]](<vibe-coding-lexicon [Appends a terminology lexicon to coding and MCP sessions]>) — Appends a short "Terminology Lexicon" to coding/MCP sessions so technical literacy builds up over time without hand-writing code.
+- [youtube-analyzer [Break down YouTube videos via transcript]](<youtube-analyzer [Break down YouTube videos via transcript]>) — Pulls a YouTube video's captions with yt-dlp and breaks it down: hook, structure with timestamps, key moments, best lines, and the reusable script formula. From [a gist by @buildwith.conrad](https://gist.github.com/conradcaffier03/f56db3849311d458dac85c7a40522864).
 
 ## builder-os/ (backup only)
 
