@@ -27,6 +27,30 @@ skills one level deep, so a skill has to sit directly at this level to be active
 - [youtube-analyzer [Break down YouTube videos via transcript]](<youtube-analyzer [Break down YouTube videos via transcript]>) — Pulls a video's captions with yt-dlp and breaks it down: hook, structure with timestamps, key moments, best lines, and the reusable script formula. Handles 5-minute clips through 2-hour talks. From [a gist by @buildwith.conrad](https://gist.github.com/conradcaffier03/f56db3849311d458dac85c7a40522864).
 - [ergonomie [German ergonomics course study and exam assistant]](<ergonomie [German ergonomics course study and exam assistant]>) — Study and exam assistant, in German, for "Industriedesign I – Ergonomie" at Hochschule München. Covers Greifarten, Greifräume, Anthropometrie/Perzentile, Belastung und Beanspruchung, ISO 9241 interaction principles, Anzeigen und Stellteile, Körperkraft and the Rasmussen model — answering from the course PDFs first, the web second. Triggered by `/ergonomie`.
 
+## remotion/ (backup only)
+
+Official Remotion skill bundle from [remotion-dev/skills](https://github.com/remotion-dev/skills),
+installed via `npx skills add remotion-dev/skills`. Twelve skills for making videos in React with
+Remotion. Kept nested in one folder as a backup — move a folder up to this level to activate it
+globally, or install into a project with the `npx` command above.
+
+`remotion-best-practices` is the router: it carries its own copy of the other eleven as
+`REFERENCE.md` files and pulls in whichever one the task needs, so activating just that one is
+usually enough.
+
+- `remotion/remotion-best-practices` — router for all the others
+- `remotion/remotion-create` — create a new Remotion video or project
+- `remotion/remotion-markup` — content, animation and effects best practices for Remotion React markup
+- `remotion/remotion-studio` — preview a video in Remotion Studio
+- `remotion/remotion-render` — export a video, beyond plain `npx remotion render`
+- `remotion/remotion-captions` — transcribing, displaying and animating captions
+- `remotion/remotion-maps` — map animation: routes, markers, Mapbox/MapLibre/MapTiler, GeoJSON, 3D flyovers
+- `remotion/remotion-multimedia` — browser-side media work via Mediabunny (trim, crop, metadata)
+- `remotion/remotion-interactivity` — structuring markup so the Studio can edit it and write back to code
+- `remotion/remotion-saas` — Remotion-powered apps: `<Player>`, rendering on Lambda/Vercel/Cloudflare/Express
+- `remotion/remotion-docs` — search the current Remotion documentation
+- `remotion/remotion-upgrade` — upgrade Remotion, related packages and the skills themselves
+
 ## builder-os/ (backup only)
 
 Third-party bundle from [BuildGreatProducts/builder-os](https://github.com/BuildGreatProducts/builder-os),
