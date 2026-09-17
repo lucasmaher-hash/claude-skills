@@ -27,6 +27,20 @@ skills one level deep, so a skill has to sit directly at this level to be active
 - [youtube-analyzer [Break down YouTube videos via transcript]](<youtube-analyzer [Break down YouTube videos via transcript]>) — Pulls a video's captions with yt-dlp and breaks it down: hook, structure with timestamps, key moments, best lines, and the reusable script formula. Handles 5-minute clips through 2-hour talks. From [a gist by @buildwith.conrad](https://gist.github.com/conradcaffier03/f56db3849311d458dac85c7a40522864).
 - [ergonomie [German ergonomics course study and exam assistant]](<ergonomie [German ergonomics course study and exam assistant]>) — Study and exam assistant, in German, for "Industriedesign I – Ergonomie" at Hochschule München. Covers Greifarten, Greifräume, Anthropometrie/Perzentile, Belastung und Beanspruchung, ISO 9241 interaction principles, Anzeigen und Stellteile, Körperkraft and the Rasmussen model — answering from the course PDFs first, the web second. Triggered by `/ergonomie`.
 
+## Obsidian
+
+Six skills from [kepano/obsidian-skills](https://github.com/kepano/obsidian-skills) by Steph Ango
+(Obsidian's CEO), MIT-licensed — see `LICENSE-obsidian-skills`. Upstream ships them as a Claude Code
+plugin; they are vendored here instead so they sync with the rest of this collection. Re-pull with
+`git clone --depth 1 https://github.com/kepano/obsidian-skills.git` and copy the folders over.
+
+- [obsidian-markdown [Obsidian Flavored Markdown syntax]](<obsidian-markdown [Obsidian Flavored Markdown syntax]>) — Obsidian's extensions to CommonMark and GFM: wikilinks, embeds, callouts, properties, comments, tags. Reference files for callouts, embeds and properties.
+- [obsidian-bases [Create and edit Obsidian Bases views]](<obsidian-bases [Create and edit Obsidian Bases views]>) — Writes `.base` files: table and card views, filters, formulas and summaries over note properties. Carries a full function reference.
+- [json-canvas [Create and edit Obsidian Canvas files]](<json-canvas [Create and edit Obsidian Canvas files]>) — Builds `.canvas` files by hand: nodes, edges, groups and connections for mind maps and flowcharts.
+- [obsidian-cli [Drive a running Obsidian vault from the CLI]](<obsidian-cli [Drive a running Obsidian vault from the CLI]>) — The `obsidian` command against a running app: read, create, search and move notes, manage tasks and properties, plus plugin/theme development (reload, eval JS, screenshots, DOM inspection).
+- [defuddle [Extract clean Markdown from web pages]](<defuddle [Extract clean Markdown from web pages]>) — Pulls clean readable Markdown out of a web page, stripping nav and ads. Cheaper than WebFetch. Needs `npm install -g defuddle`.
+- [knap [Render Markdown from templates and data]](<knap [Render Markdown from templates and data]>) — Renders Markdown templates with variables, filters and logic from JSON or CSV — batch note generation, or formatting Defuddle output into a note. Needs `npm install -g knap`.
+
 ## remotion/ (backup only)
 
 Official Remotion skill bundle from [remotion-dev/skills](https://github.com/remotion-dev/skills),
