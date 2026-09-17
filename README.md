@@ -20,6 +20,8 @@ skills one level deep, so a skill has to sit directly at this level to be active
 - [systematic-bug-diagnosis-loop [Structured diagnosis loop for hard bugs and perf regressions]](<systematic-bug-diagnosis-loop [Structured diagnosis loop for hard bugs and perf regressions]>) — A tight, repeatable diagnosis loop for hard bugs and performance regressions. Engages on "diagnose" / "debug this", or when you report something broken, throwing, failing or slow.
 - [vibe-coding-lexicon [Appends a terminology lexicon to coding and MCP sessions]](<vibe-coding-lexicon [Appends a terminology lexicon to coding and MCP sessions]>) — After any session with real technical work — code edits, terminal/build/test commands, config or dependency files, git, or an MCP connector — appends a short "Terminology Lexicon" explaining the concepts, file formats and tools just used, so technical literacy accumulates without hand-writing code.
 
+- [macos-app-icon [Turn any image into a macOS app icon + .icns]](<macos-app-icon [Turn any image into a macOS app icon + .icns]>) — Turns any photo, logo or screenshot into a correctly-shaped macOS app icon: Apple's squircle mask, the right inset and padding so it sits level with system icons in Finder and the Dock, plus a multi-resolution `.icns`. Ships `make_icon.py`, `make_folder_icon.py` and a Dock-refresh script; does the iOS square variant on request.
+
 ## Thinking and research
 
 - [grilling [Stress-test a plan, decision, or idea]](<grilling [Stress-test a plan, decision, or idea]>) — Interviews you one question at a time down the decision tree, recommending an answer at each step, and refuses to start building until you confirm shared understanding.
