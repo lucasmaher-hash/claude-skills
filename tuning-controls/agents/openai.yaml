@@ -1,0 +1,6 @@
+interface:
+  display_name: "Tuning controls"
+  short_description: "Draggable visual tuners with generous slider ranges"
+  default_prompt: "Use $tuning-controls to add a movable, collapsible adjustment panel with broad ranges."
+policy:
+  allow_implicit_invocation: true
