@@ -38,7 +38,11 @@ Choose reach for the geometry; use waypoint curves when that simple shape would 
 
 When the story is a drag between lists, let the dragged card visibly escape the source phone. Remove nested clipping on that card only, retain its whole accent border and label, and reserve room before the following screen. Do not add an extra detached gesture arrow underneath it. Connect that card directly to its destination. For Undo, connect the actual Undo control to the restored card.
 
-## Mobile layout
+## Responsive layout
+
+On desktop, fit the whole sequence statically into the available content width. Use equal fluid columns and consistent proportional gaps; do not impose a phone/track minimum width that creates horizontal scrolling. Keep deliberate card overflow inside the gap to the next screen. Enable horizontal scrolling only at the mobile breakpoint.
+
+### Mobile
 
 Use a horizontally scrolling strip reaching the container's left and right edges; avoid stationary pale gutters that mask passing content. Preserve comfortable initial and final scroll padding. Allow keyboard access to the scroll region.
 
